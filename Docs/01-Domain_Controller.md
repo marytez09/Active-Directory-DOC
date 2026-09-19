@@ -12,6 +12,13 @@ Set up a Windows Server virtual machine to serve as the Domain Controller for my
 - Promoted the server to a Domain Controller (DC)
 - Create an Active Directory (AD) 
 
+### Server Roll Installation
+- Active Directory Domain Services
+- DHCP Server
+- DNS Server
+- File and Storage Services
+- Group Policy Management
+
 
 
 

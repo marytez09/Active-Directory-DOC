@@ -36,4 +36,6 @@ Sets a default desktop wallpaper for all users.
 
 # Implementing and Testing GPOs
 ## Description
-Configuring group policies and applying them to their respective 
+Configuring group policies and applying them to their respective folders through the Group Policy Management software. Created a computer within the active directory that will act as a shared computer. 
+### Process
+- ... 

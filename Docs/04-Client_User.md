@@ -13,3 +13,6 @@ Configured a Windows client virtual machine that connects to the domain controll
     - Add **Domain Controller** IPv4 address into **Client OS** preferred DNS. 
     - Ping domain controller (e.g, ping 10.x.x.x) to verify client is connected to controller. 
 
+
+
+

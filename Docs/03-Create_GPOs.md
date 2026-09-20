@@ -36,4 +36,4 @@ Sets a default desktop wallpaper for all users.
 
 # Implementing and Testing GPOs
 ## Description
-### test
+Configuring group policies and applying them to their respective 

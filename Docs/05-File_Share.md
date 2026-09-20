@@ -1,4 +1,4 @@
-# File Services
+# File and Sharing Services
 ## Description
 
 Set up file sharing within the Active Directory which can be accessed on a client machine.
@@ -12,12 +12,30 @@ Set up file sharing within the Active Directory which can be accessed on a clien
 
 **NTFS** - File System level control that applies to files and folders on disk volumes. Applies to local and network users, allowing controlled access to shared files. 
 
-### Network Method Process
-**Network** - Configured GPOs to automatically map network drives for users (permanent access) 
+### Network Sharing Method Process
+**Network Sharing Method** - Configured GPOs to automatically map network drives for users (permanent access) 
+
 - Create a Shared Folder
+
     A shared folder named SHARED was created on Windows server's local C: drive.
 
     **Folder Path:**
-    C:\SHARED
+    `C:\SHARED`
+
+- Configured Shared permission on SHARED folder.
+
+    - add pic
+
+- Configured Security (NTFS) on SHARED folder
+
+    - add pic
+
+- Access Shared Resources via. Network Sharing Method
+
+    - Created a new GPO called **Mapped Drives** on the Windows server 
+    - add pic "new drive properties"
+    - Link the Mapped Drives GPO under Users in the USA domain folder.
+    - add pic
+    
 
 ## Implement File Server Resource Manager (FSRM)

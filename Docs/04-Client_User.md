@@ -1,17 +1,17 @@
 # Client Configuration
-## Description
-Configured a Windows client virtual machine that connects to the domain controller. This client is used to simulate users logging into an enterprise network on their local network. 
+## Objective
+Installed Windows 10 Pro Operating System to act as a client machine through a virtual machine that connects to the Domain Controller. The clients are used to simulate users logging into an enterprise network on their local network. The client machines are also utilized to test the validity of policies that were implemented though the Domain Controller.
 
 ### Environment
 - Oracle VirtualBox
-- Windows 10 Pro ISO
+- Windows 10 Pro 
 
 ### Installation
-- Configured domain controllers to a static IP on **Domain Controller**
+- Configured domain controllers to a static IP on Domain Controller
     - Changed DNS servers to loop back 127.0.0.1 as preferred DNS
-- Configure Ethernet Settings on **Client OS**, set up DNS server to communicate to **Domain Controller**. 
-    - Add **Domain Controller** IPv4 address into **Client OS** preferred DNS. 
-    - Ping domain controller (e.g, ping 10.x.x.x) to verify client is connected to controller. 
+- Configure Ethernet Settings on Client Machine, set up DNS server to communicate to Domain Controller. 
+    - Add Domain Controller IPv4 address into Client Machine preferred DNS. 
+    - Ping Domain Controller (e.g, ping 10.x.x.x) to verify Client Machine is connected to Domain Controller. 
 
 
 

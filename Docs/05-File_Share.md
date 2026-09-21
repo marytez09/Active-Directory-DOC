@@ -46,6 +46,6 @@ Set up file sharing within the Active Directory which can be accessed on a clien
 
     - Proceed to reboot the system
     - After reboot, verify the SHARED drive is visible 
-    
 
 ## Implement File Server Resource Manager (FSRM)
+Objective: Configure FRSM to create Quota Template and File Screen Template to manage File Storage.

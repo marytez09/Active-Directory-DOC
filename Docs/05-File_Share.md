@@ -48,4 +48,6 @@ Set up file sharing within the Active Directory which can be accessed on a clien
     - After reboot, verify the SHARED drive is visible 
 
 ## Implement File Server Resource Manager (FSRM)
-Objective: Configure FRSM to create Quota Template and File Screen Template to manage File Storage.
+**Objective:** created Quota Template and File Screen Template to manage File Storage. The general purpose for this lab is to simulate being an Admin and setting limits to the capacity of shared folders for best practice. 
+
+**FRSM** - A suite of tools provided by Microsoft to help manage data that is stored on file servers. 

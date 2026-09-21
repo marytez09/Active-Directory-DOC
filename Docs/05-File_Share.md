@@ -36,6 +36,16 @@ Set up file sharing within the Active Directory which can be accessed on a clien
     - add pic "new drive properties"
     - Link the Mapped Drives GPO under Users in the USA domain folder.
     - add pic
+
+- Verify GPO on Client Machine
+    - Log into a user that was created on the Windows Server.
+    - add a pic
+    - To enforce policies immediately, enter command: 
+    
+        `gpupdate /force`
+
+    - Proceed to reboot the system
+    - After reboot, verify the SHARED drive is visible 
     
 
 ## Implement File Server Resource Manager (FSRM)

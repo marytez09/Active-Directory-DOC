@@ -1,7 +1,7 @@
 # Active Directory & Lab Project
 ## Description
 
-This lab simulates real life IT environments through a Virtual Machine. Utilizing Windows Server 2022, and Windows 10 Pro, demonstrating a centralized server domain that local client machines are able to use. This documentation goes over the full step-by-step process of making an Active Directory from scratch, including screenshots and troubleshooting issues from root problem to fixes.
+This lab simulates real life IT environments through a virtual machine. Utilizing Windows Server 2022, and Windows 10 Pro, demonstrating a centralized server domain from which users are created and able to use through client machines. This documentation goes over the full step-by-step process of making an Active Directory from scratch, including screenshots and troubleshooting issues from root problems to fixes.
 
 ## Purpose
 

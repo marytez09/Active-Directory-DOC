@@ -1,9 +1,9 @@
 # Organizational Unit and Users
-## Description
+## Objective
 Created Organizational Units (OU) and users in the Domain Controller containing users, computers, servers, groups. 
 
 ### Organizational Unit Setup
-- Create OUs for different departments
+- Create OUs within the domain for different departments
     - USA
     - Europe
     - Asia

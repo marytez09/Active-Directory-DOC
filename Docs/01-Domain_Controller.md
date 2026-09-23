@@ -32,8 +32,7 @@ Set up a Windows Server VM to serve as the Domain Controller for the Active Dire
 - Rebooted system - logged into newly created domain with configured Admin password/user.
 
 
-### DNS Configuration
-DNS is a foundational aspect to the Domain Controller as the Active Directory utilizes DNS to help client machines find the Domain Controller and its centralized services. 
+
 
 
 

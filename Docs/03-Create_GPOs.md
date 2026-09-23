@@ -34,7 +34,7 @@ Configures account lockout settings to prevent brute force attacks.
 ### GPO #7 Desktop Wallpaper Policy
 Sets a default desktop wallpaper for all users. 
 
-# Implementing and Testing GPOs
+# Implementing GPOs
 ## Description
 Configuring group policies and applying them to their respective folders through the Group Policy Management software. Created a computer within the active directory that will act as a shared computer. 
 ### Process

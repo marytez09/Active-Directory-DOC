@@ -6,12 +6,14 @@ Installed Windows 10 Pro Operating System to act as a client machine through a v
 - Oracle VirtualBox
 - Windows 10 Pro 
 
-### Installation
-- Configured domain controllers to a static IP on Domain Controller
-    - Changed DNS servers to loop back 127.0.0.1 as preferred DNS
-- Configure Ethernet Settings on Client Machine, set up DNS server to communicate to Domain Controller. 
-    - Add Domain Controller IPv4 address into Client Machine preferred DNS. 
-    - Ping Domain Controller (e.g, ping 10.x.x.x) to verify Client Machine is connected to Domain Controller. 
+### Pre-Requisites
+The proceeding content can only be achieved once DNS is configured, and Client Machines are able to connect with the Domain Controller. 
+
+(Reference DNS config directory here)
+
+    - Commands to Test Verfication:
+
+### Testing GPOs
 
 
 
